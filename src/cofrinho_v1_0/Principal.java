@@ -8,10 +8,6 @@ import java.util.Scanner;
 public class Principal {
 
 	public static void main(String[] args) {
-		// Aluno: Leandro Tsuneo Fugioka
-		// Curso: Análise e Desenvolvimento de Sistemas
-		// Matrícula: 4326340
-		
 		// Inicialização das variáveis e instanciações de objetos para o sistema
 		Locale.setDefault(Locale.US);
 		Scanner kb = new Scanner(System.in);
@@ -93,7 +89,8 @@ public class Principal {
 						moeda = null;
 						if (codigoMoeda.equals("BRL")) {
 							moeda = new Real(menuValorMoeda.get(escolhaValorMoeda));
-							cofrinho.adicionar(moeda);							mostrarMensagemSucesso();
+							cofrinho.adicionar(moeda);
+							mostrarMensagemSucesso();
 						} else if (codigoMoeda.equals("USD")) {
 							moeda = new Dolar(menuValorMoeda.get(escolhaValorMoeda));
 							cofrinho.adicionar(moeda);
