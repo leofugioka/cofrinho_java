@@ -1,0 +1,24 @@
+# Pastas de build
+/target/
+/build/
+/out/
+
+# Arquivos de IDE
+/.idea/
+*.iml
+/.classpath
+/.project
+/.settings/
+
+# Logs e temporários
+*.log
+*.tmp
+*.bak
+
+# Dependências locais (se aplicável)
+/lib/
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+/bin/
